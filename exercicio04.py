@@ -1,8 +1,6 @@
-a=5
-b=10
-print(f"A: {a} e B: {b}")
-c=a
-a=b
-b=c
-print(f"A: {a} e B: {b}")
-
+n1=input("digite o primeiro numero: ")
+n2=input("digite o segundo numero: ")
+if n1>n2:
+    print(n2, n1)
+else:
+    print(n1, n2)
