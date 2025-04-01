@@ -4,5 +4,10 @@ n3=float(input("digite a terceira nota: "))
 media= (n1+n2+n3)/3
 if media >=7:
     print(f"nota: {media:.1f}\n - aluno aprovado -")
+
 else:
-    print(f"nota: {media:.1f}\n - aluno reprovado -")
+
+    if media >= 4:
+        print(f"nota: {media:.1f}\n - aluno recuperação -")
+    else:
+        print("reprovado")
