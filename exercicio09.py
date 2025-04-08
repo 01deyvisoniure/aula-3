@@ -1,5 +1,5 @@
 numero=int(input("digite um numero de 1 a 12: "))
-if numero  >=1 or numero<=12:
+if numero  >1 or numero<=12:
     if numero ==1:
         print("janeiro")
     elif numero ==2:
@@ -20,9 +20,8 @@ if numero  >=1 or numero<=12:
         print("setembro")
     elif numero ==10:
         print("outubro")
-    elif numero ==11:
+    elif numero == 11:
         print("novembro")
-    else:
-        print("dezembro")
+    el
 else:
     print("erro! este mês não existe")
